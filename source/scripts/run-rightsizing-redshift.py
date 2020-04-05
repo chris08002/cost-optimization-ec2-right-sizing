@@ -214,7 +214,7 @@ def import_ec2pricelist(db_conn, p_ec2pricelist_file):
     ls_update_pricelist_sql += " when location='Asia Pacific (Singapore)' then 'APS1' "
     ls_update_pricelist_sql += " when location='Asia Pacific (Sydney)' then 'APS2' "
     ls_update_pricelist_sql += " when location='Asia Pacific (Tokyo)' then 'APN1' "
-    ls_update_pricelist_sql += " when location='EU (Frankfurt)' then 'EU' "
+    ls_update_pricelist_sql += " when location='EU (Frankfurt)' then 'EUC1' "
     ls_update_pricelist_sql += " when location='EU (Ireland)' then 'EUW1' "
     ls_update_pricelist_sql += " when location='South America (Sao Paulo)' then 'SAE1' "
     ls_update_pricelist_sql += " when location='Asia Pacific (Mumbai)' then 'APS1' "
